@@ -4,6 +4,7 @@ module pe.edu.epeu.sys_ventas {
 
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
+    requires static lombok;
 
     opens pe.edu.epeu.sys_ventas to javafx.fxml;
     exports pe.edu.epeu.sys_ventas;
