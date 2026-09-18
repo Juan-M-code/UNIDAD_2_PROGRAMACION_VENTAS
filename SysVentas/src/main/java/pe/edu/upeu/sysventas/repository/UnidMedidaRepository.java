@@ -18,4 +18,5 @@ public class UnidMedidaRepository extends AbstractJpaRepository<UnidMedida,Long>
     protected Long generateId() {
         return sequence++;
     }
+
 }

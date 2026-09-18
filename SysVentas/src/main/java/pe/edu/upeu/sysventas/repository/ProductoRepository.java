@@ -20,4 +20,5 @@ public class ProductoRepository extends AbstractJpaRepository<Producto,Long>{
     protected Long generateId() {
         return sequence++;
     }
+
 }
